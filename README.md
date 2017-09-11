@@ -22,7 +22,7 @@ pod 'SCDMQTT'
 
 ## Author
 
-jigang-duan, jigang.duan@tcl.com
+jigang-duan, djg4055108@126.com
 
 ## License
 
