@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SCDMQTT_Tests' do
+  pod 'SCDMQTT', :path => '../'
+  
+  
+end
