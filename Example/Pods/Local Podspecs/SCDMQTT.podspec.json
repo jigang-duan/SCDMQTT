@@ -1,0 +1,22 @@
+{
+  "name": "SCDMQTT",
+  "version": "0.1.0",
+  "summary": "A short description of SCDMQTT.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jigang-duan/SCDMQTT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jigang-duan": "jigang.duan@tcl.com"
+  },
+  "source": {
+    "git": "https://github.com/jigang-duan/SCDMQTT.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SCDMQTT/Classes/**/*"
+}

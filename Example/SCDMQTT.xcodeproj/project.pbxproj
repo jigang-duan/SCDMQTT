@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0086CA624BCF4C87D6DA07FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0086CA624BCF4C87D6DA07FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0907D0BE27BDB70326F493F6 /* Pods_SCDMQTT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCDMQTT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1BF254249E7F953B41859A /* Pods-SCDMQTT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCDMQTT_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCDMQTT_Tests/Pods-SCDMQTT_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -28,8 +28,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		A205308CF822EC32A1622D82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C9F6694367BDBB2B3765B9CA /* SCDMQTT.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SCDMQTT.podspec; path = ../SCDMQTT.podspec; sourceTree = "<group>"; };
+		A205308CF822EC32A1622D82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C9F6694367BDBB2B3765B9CA /* SCDMQTT.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SCDMQTT.podspec; path = ../SCDMQTT.podspec; sourceTree = "<group>"; };
 		DC43A2A1076D0CFAE658AEEB /* Pods-SCDMQTT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCDMQTT_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCDMQTT_Tests/Pods-SCDMQTT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +151,7 @@
 				ORGANIZATIONNAME = "jigang-duan";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						ProvisioningStyle = Manual;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -332,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC43A2A1076D0CFAE658AEEB /* Pods-SCDMQTT_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -346,6 +348,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCDMQTT_Example.app/SCDMQTT_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -355,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A1BF254249E7F953B41859A /* Pods-SCDMQTT_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -365,6 +369,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCDMQTT_Example.app/SCDMQTT_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

@@ -1,0 +1,6 @@
+framework module SCDMQTT {
+  umbrella header "SCDMQTT-umbrella.h"
+
+  export *
+  module * { export * }
+}
